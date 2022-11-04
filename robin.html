@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rider miedo 2</title>
+    <script src="/robin.js"></script>
+    <style> body {
+        background: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%, 100%;
+        background-image: url("https://cloudfront-eu-central-1.images.arcpublishing.com/prisaradio/C3WUQVBLW5K65G36YKI7525OZU.jpg");
+        }
+        label{
+            color: brown;
+            font-family: cursive;
+        }
+        input{
+            background-color: crimson;
+        }
+        p{
+            color: firebrick;
+        }
+        
+        
+        </style>
+   
+</head>
+<body>
+    <label for="">Identificacion del hotel:<input type="text" id="txtidh" value="15"></label><br>
+    <p></p>
+    <label for="">Nombre del hotel:<input type="text" id="txtnomhotel" value="la casita del terror"></label><br>
+    <p></p>
+    <label for="">Numero de habitaciones:<input type="text" id="txthabitaciones" value="66"></label><br>
+    <p></p>
+    <label for="">tipo de habitaciones:<input type="text" id="txttipohabi" value="medio"></label><br>
+    <p></p>
+    <label for="">Precio:<input type="text" id="Precio" value="50000"></label><br>
+    <p></p>
+    <input type="button" value="habitaciones" 
+    onclick=document.getElementById(insohotel.habitaciones(txtidh.value,txtnomhotel.value,txthabitaciones.value,txttipohabi.value,Precio.value))>
+    <p id="datos">Datos hotel</p>
+
+</body>
+</html>
